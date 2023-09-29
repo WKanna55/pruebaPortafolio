@@ -22,27 +22,43 @@
     </script>
   </head>
   <body>
-    <header></header>
+    <header>
+      <a href="https://www.facebook.com/" target="_blank">
+        <img src="images/facebook.png" alt="facebook.png" >
+      </a>
+      <a href="https://github.com/" target="_blank">
+        <img src="images/github.png" alt="github.png">
+      </a>
+      <a href="https://www.google.com/intl/es-419/gmail/about/" target="_blank">
+        <img src="images/gmail.png" alt="gmail.png">
+      </a>
+    </header>
 
     <div class="contenedor-flex-columna-pagina-principal">
       <div class="contenedor-flex-fila">
         <div class="contenedor-flex-imagen">
-          <img
+          <img class="img-style"
             src="images/avatar.jpg"
             alt="avatar"
-            width="240px"
-            height="250px"
+
           />
         </div>
+        
+
         <div class="contenedor-flex-textoinit">
-          <h3>Presentacion</h3>
+          <h3>Hola</h3>
           <p>
-            Hola, me llamo Willian Kana y actualmente soy estudiante de Diseño y
+            Me llamo Willian Kana y actualmente soy estudiante de Diseño y
             desarrollo de software en el instituto
             <a href="https://www.tecsup.edu.pe/" target="_blank">TECSUP</a> para
             un futuro desempeñarme como developer en esta industria.
           </p>
+          
           <br />
+        </div>
+
+
+        <div class="contenedor-flex-textoinit-2">
           <h3>Sobre mi</h3>
           <p>
             Soy una persona fascinada por las ciencias computacionales desde que
@@ -50,7 +66,6 @@
             tengo planeado poder crear aplicaciones que ayuden y sean de impacto
             en la sociedad.
           </p>
-          <br />
         </div>
       </div>
       
@@ -64,13 +79,13 @@
         <table class="tabla">
           <tr>
             <th class="tabla-th">
-              <h4>
+              <h3>
                 Lenguaje <br />o<br />
                 tecnologia
-              </h4>
+              </h3>
             </th>
             <th class="tabla-th">
-              <h4>Descripcion</h4>
+              <h3>Descripcion</h3>
             </th>
           </tr>
           <tr>
@@ -156,13 +171,13 @@
         <br />
       </div>
 
-      <div>
+      <div class="centrar">
         <hr />
         <br />
         <h3>Más Informacion:</h3>
         <p>Enviame tu correo para más informacion.</p>
         <form>
-          <label for="mail">Correo</label><br />
+          <label for="mail">Correo</label><br /><br />
           <input
             type="text"
             id="mail"
@@ -174,13 +189,9 @@
           <input type="submit" value="Enviar" />
         </form>
       </div>
-      <br />
-      <br />
-    
-
       
   </div>
-  <footer class="contenedor-pagina">
+  <footer class="contenedor-pagina" >
     <h1>Contador de Visitas Local</h1>
     <p>Esta página ha sido visitada <span id="contador"></span> veces.</p>
   </footer>
